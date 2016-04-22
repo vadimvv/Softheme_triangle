@@ -1,0 +1,9 @@
+D:\zevas\Git_Repositories\SoftTheme\SoftTheme1\bin\Debug\SoftTheme1.exe.config
+D:\zevas\Git_Repositories\SoftTheme\SoftTheme1\bin\Debug\SoftTheme1.exe
+D:\zevas\Git_Repositories\SoftTheme\SoftTheme1\bin\Debug\SoftTheme1.pdb
+D:\zevas\Git_Repositories\SoftTheme\SoftTheme1\obj\Debug\SoftTheme1.csprojResolveAssemblyReference.cache
+D:\zevas\Git_Repositories\SoftTheme\SoftTheme1\obj\Debug\SoftTheme1.Form1.resources
+D:\zevas\Git_Repositories\SoftTheme\SoftTheme1\obj\Debug\SoftTheme1.Properties.Resources.resources
+D:\zevas\Git_Repositories\SoftTheme\SoftTheme1\obj\Debug\SoftTheme1.csproj.GenerateResource.Cache
+D:\zevas\Git_Repositories\SoftTheme\SoftTheme1\obj\Debug\SoftTheme1.exe
+D:\zevas\Git_Repositories\SoftTheme\SoftTheme1\obj\Debug\SoftTheme1.pdb
