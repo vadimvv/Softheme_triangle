@@ -63,7 +63,7 @@ namespace SoftTheme1
             List<int> all_max = new List<int>();
             all_max.Add(Max_Sumijne);
             int position = 0;
-            
+
             for (int i = 1; i < f.Length; i++)
             {
 
@@ -86,11 +86,11 @@ namespace SoftTheme1
                 #region POSITION != 0
                 else
                 {
-                    int[] ar = { f[i][position - 1], f[i][position], f[i][position + 1] };
-                    Array.Sort(ar);
-
-                    Max_Sumijne = ar[ar.Length - 1];
-                    position = Array.IndexOf(f[i], Max_Sumijne);
+                    Max_Sumijne = MaxValue_mass(f[i][position - 1], f[i][position], f[i][position + 1]);
+                    if (Max_Sumijne == f[i][position - 1])
+                        position = position - 1;
+                    if (Max_Sumijne == f[i][position + 1])
+                        position = position + 1;
                 }
                 #endregion
                 all_max.Add(Max_Sumijne);
@@ -107,6 +107,15 @@ namespace SoftTheme1
             }
             MessageBox.Show(finalSum + "");
             #endregion
+            
+
+        }
+
+        private static int MaxValue_mass(int a,int b,int c)
+        {
+            int[] ar = { a,b,c };
+            Array.Sort(ar);
+            return ar[ar.Length - 1];
 
         }
     }
